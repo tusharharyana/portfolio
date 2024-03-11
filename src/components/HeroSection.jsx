@@ -8,6 +8,8 @@ const HeroSection = () => {
   const targetText = "Android Developer";
   const lineHeight = 1.2;
 
+
+
 //   useEffect(() => {
 //     const typeText = (index) => {
 //       if (index <= targetText.length) {
@@ -30,9 +32,16 @@ const HeroSection = () => {
     console.log(page);
     setCurrentPage(page);
   };
+  const handleDownload = () => {
+    const resumeURL = '/ResumeMCA42.pdf';
+    window.open(resumeURL, '_blank');
+  };
+
+
 
   return (
-    <div className="header flex items-center w-screen  justify-between p-5 bg-cyan-50">
+    
+    <div id='hero' className="header flex items-center w-screen  justify-between p-5 mt-20 bg-cyan-50">
       <div className="header-left p-24.5 ml-14 text-left w-full">
         <div className='font-mono'>Hey, I am Tushar</div>
         <div className="android text-black text-5xl">
@@ -50,14 +59,32 @@ const HeroSection = () => {
         <div style={{ height: `${lineHeight * 1.5}em` }}></div>
         <p className="one font-extralight">Proficient in Java for Android development</p>
         <p className='font-extralight'>Interested in applying machine learning principles.</p>
+        <div className='flex p-6'>
+        <a href="https://github.com/tusharharyana" target="_blank" rel="noopener noreferrer">
+            <img src='/githublogo.png' className='w-10 h-10 mr-4 cursor-pointer'/>
+          </a>
+          <a href="https://www.linkedin.com/in/tushar-238941237/" target="_blank" rel="noopener noreferrer">
+            <img src='/linkdinlogo.png' className='w-10 h-10 mr-4 cursor-pointer'/>
+          </a>
+          <a href="https://instagram.com/tusharharyanaa" target="_blank" rel="noopener noreferrer">
+            <img src='/instalogo.png' className='w-10 h-10 cursor-pointer'/>
+          </a>
+
+        </div>
       </div>
 
       <div className="header-right ml-20 p-12  mt-4 w-full">
         <img
-          src="/lion.jpg"
+          src="/tusharharyana.png"
           alt="Your Image"
-          className="w-60 h-auto rounded-3xl"
+          className="w-full h-auto rounded-3xl"
         />
+        <div className='flex mt-2 p-2'>
+        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded ml-12 mr-4"
+         onClick={handleDownload}
+        >Resume</button>
+        <p className='font-mono p-2'>Click the resume button to download.</p>
+        </div>
       </div>
     </div>
   );

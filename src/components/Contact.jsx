@@ -2,8 +2,8 @@ import React from "react";
 
 function Contact() {
   return (
-    <div className="flex justify-center items-center h-screen">
-    <div className="p-2 mx-14 my-14 ">
+    <div id="contacts" className="flex justify-center items-center h-screen">
+    <div className="p-2 mx-14 my-14 bg-cyan-50 rounded-lg">
       <div>
         <h1>Contact Me</h1>
       </div>

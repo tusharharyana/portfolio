@@ -8,6 +8,7 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 
 function App() {
+
   return (
     <>
       <Navbar />
@@ -20,6 +21,6 @@ function App() {
       <Footer />
     </>
   );
-}
+};
 
 export default App;

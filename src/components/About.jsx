@@ -1,28 +1,36 @@
-import React from 'react'
+import React from "react";
 
 function About() {
   return (
-    <div className="about flex items-center w-screen  justify-between p-5 ">
+    <div
+      id="about"
+      className="about flex items-center w-screen  justify-between p-5 "
+    >
       <div className="about-right ml-20 p-12 w-full">
         <img
-          src="/lion.jpg"
+          src="/logo2.png"
           alt="Your Image"
-          className="w-60 h-auto rounded-3xl"
+          className="w-full h-full rounded-3xl"
         />
       </div>
       <div className="about-left p-24.5 mr-14 text-left w-full">
-        <div className='font-mono'>About</div>
+        <div className="font-mono">About</div>
         <h1>About Me</h1>
-        <p className='font-medium'>I thrive in environments that prioritize friendliness and honesty, where everyone feels valued and respected. When I'm part of a team that works together well, it brings out the best in me. I enjoy collaborating with others, sharing ideas, and supporting each other to achieve our goals.
-
-Having a positive attitude is important to me. I believe it helps me stay motivated, even when faced with challenges. I approach each task with enthusiasm and a determination to do my best.
-
-Meeting deadlines is something I take seriously.</p>
- <p className='font-medium'><br></br>I understand the importance of being reliable and delivering results on time. I put in the effort to ensure that my work is completed efficiently and to a high standard.</p>
+        <p className="font-serif mt-2 ">Hey there, I'm Tushar!</p>
+        <p className="font-serif mt-2">
+          I believe in kindness, honesty, and working together as a team. When
+          I'm surrounded by positivity and support, I thrive. I love sharing
+          ideas, collaborating, and helping others reach their goals. I'm
+          passionate about what I do and always give it my all. Challenges don't
+          scare me; they motivate me to do better. Meeting deadlines is
+          important to me because I value reliability and excellence in my work.
+        </p>
+        <p className="font-serif">
+          <br></br>Let's connect and create something amazing together!.
+        </p>
       </div>
-
     </div>
-  )
+  );
 }
 
-export default About
+export default About;
