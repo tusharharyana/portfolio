@@ -4,17 +4,16 @@ function About() {
   return (
     <div
       id="about"
-      className="about flex items-center w-screen  justify-between p-5 "
+      className="about flex items-center w-3/4 m-auto flex-col md:flex-row justify-between p-5 mb-20 "
     >
-      <div className="about-right ml-20 p-12 w-full">
+      <div className="about-right  p-12 w-full">
         <img
-          src="/logo2.png"
+          src="/images/logo2.png"
           alt="Your Image"
           className="w-full h-full rounded-3xl"
         />
       </div>
-      <div className="about-left p-24.5 mr-14 text-left w-full">
-        <div className="font-mono">About</div>
+      <div className="about-left p-24.5 ml-auto text-left w-full">
         <h1>About Me</h1>
         <p className="font-serif mt-2 ">Hey there, I'm Tushar!</p>
         <p className="font-serif mt-2">

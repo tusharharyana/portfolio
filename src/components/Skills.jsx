@@ -1,96 +1,141 @@
 import React from "react";
 
 function Skills() {
- 
   return (
-    <div id="skills"  className="skills flex items-center w-screen  justify-between p-5 ">
-      <div className="skill p-24.5 m-14 text-left w-full">
+    <div
+      id="skills"
+      className="skills flex w-2/3 md:w-3/4 m-auto flex-col md:flex-row  justify-between mb-20 "
+    >
+      <div className="skill text-left w-full">
         <div className="font-mono px-1">Skills</div>
         <h1>My Expertise</h1>
-        <div className="flex p-4 mt-10">
-          <div className="w-44 bg-cyan-50 rounded-lg p-4 mr-4">
-            <img src="/html.jpg" className="w-8 h-8 mr-2" alt="Html5" />
-            <p className="font-serif mt-2">
-              Proficient in HTML, creating structured web pages for diverse
-              devices.
-            </p>
+        <div className="flex p-2 gap-4 mt-4 flex-col md:flex-row">
+
+          <div className="flex ">
+          <div className="w-44 bg-zinc-500 rounded-lg p-4 mr-4">
+            <img
+              src="/html.png"
+              className="w-12 h-14 mr-2 bg-gray-300 p-2 rounded-lg"
+              alt="Html5"
+            />
+            <p className="w-36 font-serif mt-2 bg-gray-300 rounded-lg p-2">HTML</p>
           </div>
 
-          <div className="w-44 bg-cyan-50 rounded-lg p-4 mr-4">
-            <img src="/css.jpg" className="w-8 h-8 mr-2" />
-            <p className="font-serif mt-2">
-              Skilled in CSS, crafting responsive designs for user-friendly
-              websites.
-            </p>
+          <div className="w-44 bg-zinc-500 rounded-lg p-4 mr-4">
+            <img
+              src="/css.png"
+              className="w-12 h-14 mr-2  bg-gray-300 p-2 rounded-lg"
+            />
+            <p className="w-36 font-serif mt-2  bg-gray-300 p-2 rounded-lg">CSS</p>
+          </div>
           </div>
 
-          <div className="w-44 bg-cyan-50 rounded-lg p-4 mr-4">
-            <img src="/js.png" className="w-10 h-8 mr-2" />
-            <p className="font-serif mt-2">
-              Proficient in JavaScript, creating interactive and dynamic web
-              applications.
+
+          <div className="flex">
+          <div className="w-44 bg-zinc-500 rounded-lg p-4 mr-4">
+            <img
+              src="/js.png"
+              className="w-12 h-14 mr-2  bg-gray-300 p-2 rounded-lg"
+              />
+            <p className="w-36 font-serif mt-2  bg-gray-300 p-2 rounded-lg">
+              JavaScript
             </p>
+          </div>
+            
+          <div className="w-44  bg-zinc-500 rounded-lg p-4 mr-4">
+            <img
+              src="/mysql.png"
+              className="w-12 h-14 mr-2  bg-gray-300 p-2 rounded-lg"
+            />
+            <p className="w-36 font-serif mt-2  bg-gray-300 p-2 rounded-lg">MySQL</p>
+          </div>
           </div>
 
-          <div className="w-44 bg-cyan-50 rounded-lg p-4 mr-4">
-            <img src="/mylogo.png" className="w-8 h-8 mr-2" />
-            <p className="font-serif mt-2">
-              Skilled in MySQL, managing databases for efficient data storage.
-            </p>
+          <div className="flex">
+          <div className="w-44 bg-zinc-500 rounded-lg p-4 mr-4">
+            <img
+              src="/c_logo.png"
+              className="w-12 h-14 mr-2  bg-gray-300 p-2 rounded-lg"
+            />
+            <p className="w-36 font-serif mt-2  bg-gray-300 p-2 rounded-lg">C</p>
           </div>
-
-          <div className="w-44 bg-cyan-50 rounded-lg p-4 mr-4">
-            <img src="/c_logo.png" className="w-8 h-8 mr-2" />
-            <p className="font-serif mt-2">
-              Experienced in C programming, building efficient and reliable
-              software.
-            </p>
-          </div>
-          <div className="w-44 bg-cyan-50 rounded-lg p-4 mr-4">
-            <img src="/c++.png" className="w-8 h-8 mr-2" />
-            <p className="font-serif mt-2">
-              Skilled in C++, developing high-performance and scalable software
-              solutions.
-            </p>
+          <div className="w-44 bg-zinc-500 rounded-lg p-4 mr-4">
+            <img
+              src="/c++.png"
+              className="w-12 h-14 mr-2  bg-gray-300 p-2 rounded-lg"
+            />
+            <p className="w-36 font-serif mt-2  bg-gray-300 p-2 rounded-lg">C++</p>
           </div>
         </div>
+        </div>
 
-        <div className="flex p-4">
-          <div className="w-44 bg-cyan-50 rounded-lg p-4 mr-4">
-            <img src="/java.png" className="w-14 h-10 mr-2" />
-            <p className="font-serif mt-2">
-              Proficient in Java, developing robust and scalable applications.
+
+
+
+        <div className="flex  mt-4 flex-col md:flex-row gap-4 p-2">
+          <div className="flex">
+          <div className="w-44 bg-zinc-500 rounded-lg p-4 mr-4">
+            <img
+              src="/javalogo.png"
+              className="w-12 h-14 mr-2  bg-gray-300 p-2 rounded-lg"
+            />
+            <p className="w-36 font-serif mt-2  bg-gray-300 p-2 rounded-lg">Java</p>
+          </div>
+          <div className="w-44 bg-zinc-500 rounded-lg p-4 mr-4">
+            <img
+              src="/python.png"
+              className="w-12 h-14 mr-2  bg-gray-300 p-2 rounded-lg"
+            />
+            <p className="w-36 font-serif mt-2  bg-gray-300 p-2 rounded-lg">
+              Python
             </p>
           </div>
-          <div className="w-44 bg-cyan-50 rounded-lg p-4 mr-4">
-            <img src="/python.png" className="w-10 h-10 mr-2" />
-            <p className="font-serif mt-2">
-              Skilled in Python, creating versatile and efficient software
-              solutions.
-            </p>
           </div>
 
-          <div className="w-44 bg-cyan-50 rounded-lg p-4 mr-4">
-            <img src="/sql.png" className="w-14 h-10 mr-2" />
-            <p className="font-serif mt-2">
-              Experienced in SQL, proficient in managing and querying databases.
+          <div className="flex">
+          <div className="w-44 bg-zinc-500 rounded-lg p-4 mr-4">
+            <img
+              src="/sql.png"
+              className="w-12 h-14 mr-2  bg-gray-300 p-2 rounded-lg"
+            />
+            <p className="w-36 font-serif mt-2  bg-gray-300 p-2 rounded-lg">SQL</p>
+          </div>
+          
+          
+          <div className="w-44 bg-zinc-500 rounded-lg p-4 mr-4">
+            <img
+              src="/tailwind.png"
+              className="w-12 h-14 mr-2  bg-gray-300 p-2 rounded-lg"
+            />
+            <p className="w-36 font-serif mt-2  bg-gray-300 p-2 rounded-lg">
+              Tailwind
             </p>
           </div>
-          <div className="w-44 bg-cyan-50 rounded-lg p-4 mr-4">
-            <img src="/tailwind.png" className="w-12 h-8 mr-2" />
-            <p className="font-serif mt-2">
-            CSS framework, utility-first approach, rapid UI development, customizable styling.
+          </div>
+
+          <div className="flex">
+          <div className="w-44 bg-zinc-500 rounded-lg p-4 mr-4">
+            <img
+              src="/Android.png"
+              className="w-12 h-14 mr-2  bg-gray-300 p-2 rounded-lg"
+            />
+            <p className="w-36 font-serif mt-2  bg-gray-300 p-2 rounded-lg">
+              Android Studio
             </p>
           </div>
-          <div className="w-44 bg-cyan-50 rounded-lg p-4 mr-4">
-            <img src="/Android.png" className="w-10 h-10 mr-2" />
-            <p className="font-serif mt-1">
-            Mobile development, Java programming, Android Studio, app lifecycle, UI design.
+          <div className="w-44 bg-zinc-500 rounded-lg p-4 mr-4">
+            <img
+              src="/Android.png"
+              className="w-12 h-14 mr-2  bg-gray-300 p-2 rounded-lg"
+            />
+            <p className="w-36 font-serif mt-2  bg-gray-300 p-2 rounded-lg">
+              Android Studio
             </p>
+          </div>
+          </div>
           </div>
         </div>
       </div>
-    </div>
   );
 }
 

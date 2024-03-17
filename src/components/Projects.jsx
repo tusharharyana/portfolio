@@ -4,17 +4,19 @@ function Projects() {
   return (
     <div
       id="projects"
-      className="skills flex items-center w-screen  justify-between p-5 "
+      className="skills flex w-2/4 md:w-3/4 m-auto justify-between mb-20"
     >
-      <div className="skill p-24.5 m-14 text-left w-full">
-        <div className="font-mono px-1">Recents Projects</div>
-        <h1>My Portfolio</h1>
+      <div className="skill text-left w-full">
+        <div className="p-4">
+        <p className="font-mono">Journey into Tech Projects</p>
+          <h1>My Portfolio</h1>
+        </div>
 
-        <div className="flex p-4 mt-2">
-          <div className="w-80 bg-cyan-50 rounded-lg p-4 mr-4 font-serif">
+        <div className="flex  m-auto flex-col md:flex-row p-4 mt-2 gap-5">
+          <div className="w-64 bg-cyan-50 rounded-lg p-4 mr-4 font-serif">
             <img
               src="/customerchurn.jpg"
-              className="w-full mr-2 rounded-lg"
+              className="w-full h-52 mr-2 rounded-lg"
               alt="Html5"
             />
 
@@ -31,8 +33,11 @@ function Projects() {
             </ul>
           </div>
 
-          <div className="w-80 bg-cyan-50 rounded-lg p-4 mr-4">
-            <img src="/quizproject.png" className="w-full mr-2 rounded-lg" />
+          <div className="w-64 bg-cyan-50 rounded-lg p-4 mr-4">
+            <img
+              src="/quizproject.png"
+              className="w-full mr-2 h-52 rounded-lg"
+            />
             <ul className="mt-2">
               <li>
                 ✅Quiz application with Firebase authentication for secure user
@@ -48,8 +53,11 @@ function Projects() {
             </ul>
           </div>
 
-          <div className="w-80 bg-cyan-50 rounded-lg p-4 mr-4">
-            <img src="/hiappproject.png" className="w-full mr-2 rounded-lg" />
+          <div className="w-64 bg-cyan-50 rounded-lg p-4 mr-4">
+            <img
+              src="/hiappproject.png"
+              className="w-full mr-2 h-52 rounded-lg"
+            />
             <ul className="mt-2">
               <li>✅Application enables instant sharing via QR code scan.</li>
               <li>
@@ -62,21 +70,27 @@ function Projects() {
               </li>
             </ul>
           </div>
-  
-        {/* <div className="flex p-4 "> */}
-          <div className="w-80 bg-cyan-50 rounded-lg p-4 mr-4">
-            <img src="/portfolioproject.png" className="w-full mr-2 rounded-lg" />
-            <img src="/portfolioproject2.png" className="w-full mr-2 rounded-lg" />
-            <ul className="mt-2">
+
+          {/* <div className="flex p-4 "> */}
+
+          <div className="w-64 bg-cyan-50 rounded-lg p-4 mr-4">
+            <div className="h-52">
+              <img
+                src="/portfolioproject.png"
+                className="w-full mr-2 mt-2 rounded-lg"
+              />
+              <img
+                src="/portfolioproject2.png"
+                className="w-full mr-2 rounded-lg"
+              />
+            </div>
+            <ul>
               <li>✅Portfolio website built with React.js and Tailwind CSS.</li>
               <li>
                 ✅Responsive design ensures compatibility across devices and
                 screen sizes.
               </li>
-              <li>
-                ✅Features interactive components and animations for enhanced
-                user experience.
-              </li>
+              <li>✅Features interactive components.</li>
             </ul>
           </div>
         </div>

@@ -41,8 +41,8 @@ const HeroSection = () => {
 
   return (
     
-    <div id='hero' className="header flex items-center w-screen  justify-between p-5 mt-20 bg-cyan-50">
-      <div className="header-left p-24.5 ml-14 text-left w-full">
+    <div id='hero' className="header flex  w-3/4 m-auto flex-col md:flex-row justify-between p-5 mt-20 bg-cyan-50 rounded-xl mb-20">
+      <div className="header-left  text-left w-full">
         <div className='font-mono'>Hey, I am Tushar</div>
         <div className="android text-black text-5xl">
          {/* {fixedText} */}
@@ -73,9 +73,9 @@ const HeroSection = () => {
         </div>
       </div>
 
-      <div className="header-right ml-20 p-12  mt-4 w-full">
+      <div className="header-right p-12  mt-4 w-full">
         <img
-          src="/tusharharyana.png"
+          src="/images/tusharharyana.png"
           alt="Your Image"
           className="w-full h-auto rounded-3xl"
         />
