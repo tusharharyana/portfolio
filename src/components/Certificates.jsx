@@ -11,7 +11,7 @@ function Certificates() {
           <a
             href="/machine.pdf"
             download
-            className="w-82 h-28 bg-teal-700 rounded-lg p-4 mr-4 flex"
+            className="w-82 h-28 bg-teal-700 rounded-lg p-4 mr-4 flex hover:scale-105"
           >
             <img
               src="/ibmlogo.png"
@@ -27,7 +27,7 @@ function Certificates() {
           <a
             href="/Networking.pdf"
             download
-            className="w-82 h-28 bg-teal-700 rounded-lg p-4 mr-4 flex"
+            className="w-82 h-28 bg-teal-700 rounded-lg p-4 mr-4 flex hover:scale-105"
           >
             <img
               src="/logovit.png"

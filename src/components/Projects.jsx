@@ -13,14 +13,14 @@ function Projects() {
         </div>
 
         <div className="flex  m-auto flex-col md:flex-row p-4 mt-2 gap-5">
-          <div className="w-64 bg-cyan-50 rounded-lg p-4 mr-4 font-serif">
+          <div className="w-64 bg-zinc-700 rounded-lg p-4 mr-4 font-serif hover:scale-95 cursor-pointer">
             <img
               src="/customerchurn.jpg"
               className="w-full h-52 mr-2 rounded-lg"
               alt="Html5"
             />
 
-            <ul className="mt-2">
+            <ul className="mt-2 text-white">
               <li>
                 ✅Develop predictive models to forecast churn probabilities
                 accurately.
@@ -33,12 +33,12 @@ function Projects() {
             </ul>
           </div>
 
-          <div className="w-64 bg-cyan-50 rounded-lg p-4 mr-4">
+          <div className="w-64 bg-zinc-700 rounded-lg p-4 mr-4 hover:scale-95 cursor-pointer">
             <img
               src="/quizproject.png"
               className="w-full mr-2 h-52 rounded-lg"
             />
-            <ul className="mt-2">
+            <ul className="mt-2 text-white">
               <li>
                 ✅Quiz application with Firebase authentication for secure user
                 login.
@@ -53,12 +53,12 @@ function Projects() {
             </ul>
           </div>
 
-          <div className="w-64 bg-cyan-50 rounded-lg p-4 mr-4">
+          <div className="w-64 bg-zinc-700 rounded-lg p-4 mr-4 hover:scale-95 cursor-pointer">
             <img
               src="/hiappproject.png"
               className="w-full mr-2 h-52 rounded-lg"
             />
-            <ul className="mt-2">
+            <ul className="mt-2 text-white">
               <li>✅Application enables instant sharing via QR code scan.</li>
               <li>
                 ✅Integrates with Instagram and WhatsApp for seamless
@@ -73,8 +73,8 @@ function Projects() {
 
           {/* <div className="flex p-4 "> */}
 
-          <div className="w-64 bg-cyan-50 rounded-lg p-4 mr-4">
-            <div className="h-52">
+          <div className="w-64 bg-zinc-700 rounded-lg p-4 mr-4 text-white hover:scale-95 cursor-pointer">
+            <div className="h-52 ">
               <img
                 src="/portfolioproject.png"
                 className="w-full mr-2 mt-2 rounded-lg"

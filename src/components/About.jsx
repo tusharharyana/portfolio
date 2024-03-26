@@ -10,7 +10,7 @@ function About() {
         <img
           src="/images/logo2.png"
           alt="Your Image"
-          className="w-full h-full rounded-3xl"
+          className="w-full h-full rounded-3xl hover:shadow-2xl"
         />
       </div>
       <div className="about-left p-24.5 ml-auto text-left w-full">
