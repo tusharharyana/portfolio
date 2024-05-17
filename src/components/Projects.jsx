@@ -13,7 +13,7 @@ function Projects() {
         </div>
 
         <div className="flex  m-auto flex-col md:flex-row p-4 mt-2 gap-5">
-          <div className="w-60 bg-zinc-700 rounded-lg p-4 mr-4 font-serif hover:scale-95 cursor-pointer">
+          <div className="w-64 bg-zinc-700 rounded-lg p-4 mr-4 font-serif hover:scale-95 cursor-pointer">
             <img
               src="/customerchurn.jpg"
               className="w-full h-52 mr-2 rounded-lg"

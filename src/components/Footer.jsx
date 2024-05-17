@@ -3,7 +3,7 @@ import ListItem from "./ListItem";
 import { Link } from "react-scroll";
 function Footer() {
   return (
-    <footer className="footer flex  bg-cyan-50 text-black p-2.5 w-screen  bottom-0 left-0 shadow-lg">
+    <footer className="footer flex bg-cyan-50 text-black p-2.5 w-screen  bottom-0 left-0 shadow-lg">
       <div className="footer-up w-full">
         <ul className="foot-list flex list-none mb-auto">
           <li className="cursor-pointer px-1.5 py-1 mx-2.5 my-2.5 hover:scale-105">
@@ -45,7 +45,7 @@ function Footer() {
             </Link>
           </li>
 
-          <div className="flex m-auto">
+          <div className="flex m-auto ">
             <a
               href="https://github.com/tusharharyana"
               target="_blank"
