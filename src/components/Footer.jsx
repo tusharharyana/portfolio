@@ -3,9 +3,9 @@ import ListItem from "./ListItem";
 import { Link } from "react-scroll";
 function Footer() {
   return (
-    <footer className="footer flex items-center justify-center bg-cyan-50 text-black p-2.5 w-screen0  bottom-0 left-0 shadow-lg">
+    <footer className="footer flex  bg-cyan-50 text-black p-2.5 w-screen  bottom-0 left-0 shadow-lg">
       <div className="footer-up w-full">
-        <ul className="foot-list flex list-none m-0 p-0 mb-8">
+        <ul className="foot-list flex list-none mb-auto">
           <li className="cursor-pointer px-1.5 py-1 mx-2.5 my-2.5 hover:scale-105">
             <Link to="hero" spy={true} smooth={true} offset={0} duration={500}>
               Home
@@ -45,7 +45,7 @@ function Footer() {
             </Link>
           </li>
 
-          <div className="flex ml-auto items-center mr-6">
+          <div className="flex m-auto">
             <a
               href="https://github.com/tusharharyana"
               target="_blank"
@@ -75,7 +75,7 @@ function Footer() {
             >
               <img
                 src="/Instagram.png"
-                className="w-8 h-8 mr-4 cursor-pointer hover:scale-105"
+                className="w-8 h-8 cursor-pointer hover:scale-105"
                 alt="Instagram"
               />
             </a>

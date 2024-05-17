@@ -4,16 +4,16 @@ function Projects() {
   return (
     <div
       id="projects"
-      className="skills flex w-2/4 md:w-3/4 m-auto justify-between mb-20"
+      className="skills flex  items-center w-3/4 m-auto flex-col md:flex-row justify-between mb-20"
     >
-      <div className="skill text-left w-full">
+      <div className="skill text-left ">
         <div className="p-4">
         <p className="font-mono">Journey into Tech Projects</p>
           <h1>My Portfolio</h1>
         </div>
 
         <div className="flex  m-auto flex-col md:flex-row p-4 mt-2 gap-5">
-          <div className="w-64 bg-zinc-700 rounded-lg p-4 mr-4 font-serif hover:scale-95 cursor-pointer">
+          <div className="w-60 bg-zinc-700 rounded-lg p-4 mr-4 font-serif hover:scale-95 cursor-pointer">
             <img
               src="/customerchurn.jpg"
               className="w-full h-52 mr-2 rounded-lg"

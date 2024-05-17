@@ -98,9 +98,9 @@ const HeroSection = () => {
           alt="Your Image"
           className="w-full h-auto rounded-3xl"
         />
-        <div className="flex mt-2 p-2">
+        <div className=" flex mt-4">
           <button
-            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded ml-12 mr-4 hover:scale-105"
+            className="bg-blue-500 hover:bg-blue-700 text-white font-bold rounded mr-2 hover:scale-105"
             onClick={handleDownload}
           >
             Resume
