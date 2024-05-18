@@ -92,7 +92,7 @@ const HeroSection = () => {
         </div>
       </div>
 
-      <div className="header-right p-12  mt-4 w-full">
+      <div className="header-right p-2 md:p-12  mt-4 w-full">
         <img
           src="/images/tusharharyana.png"
           alt="Your Image"

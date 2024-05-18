@@ -6,7 +6,7 @@ function About() {
       id="about"
       className="about flex items-center w-3/4 m-auto flex-col md:flex-row justify-between p-5 mb-20 "
     >
-      <div className="about-right  p-12 w-full">
+      <div className="about-right  p-2 md:p-12 w-full">
         <img
           src="/images/logo2.png"
           alt="Your Image"

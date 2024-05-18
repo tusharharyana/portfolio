@@ -28,25 +28,25 @@ const Navbar = () => {
 
   return (
     <nav
-      className="navbar flex items-center fixed justify-between text-black p-2.5 top-0 left-0 w-full drop-shadow-lg
+      className="navbar flex items-center fixed justify-between text-black p-2.5 top-0 left-0 w-full bg-white drop-shadow-lg
       "
       //    bg-green-500 sm:bg-red-600 md:bg-yellow-200 lg:bg-blue-500 2xl:bg-purple-500 xl:bg-orange-500
     >
       {/* logo */}
       <div className="flex w-48">
-  <Link to="hero" spy={true} smooth={true} offset={-100} duration={500}>
-    <img
-      src="/portfoliologo.png"
-      alt="My logo"
-      className="m-1 ml-6 w-25 h-12 cursor-pointer hover:scale-105"
-      onClick={() => {
-        handleItemClick("Home");
-        handleLogoClick(); 
-      }}
-    />
-  </Link>
-  {/* {showMessage && <p className="text-blue-600 font-serif ">Hi</p>} */}
-</div>
+        <Link to="hero" spy={true} smooth={true} offset={-100} duration={500}>
+          <img
+            src="/portfoliologo.png"
+            alt="My logo"
+            className="m-1 ml-6 w-25 h-12 cursor-pointer hover:scale-105"
+            onClick={() => {
+              handleItemClick("Home");
+              handleLogoClick();
+            }}
+          />
+        </Link>
+        {/* {showMessage && <p className="text-blue-600 font-serif ">Hi</p>} */}
+      </div>
 
       {/* nav items */}
       <ul
